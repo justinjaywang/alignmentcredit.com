@@ -25,8 +25,8 @@ JEKYLL_ENV=production jekyll build
 ---
 ## to do
 
-- build skeleton
 - style that shit
+- add javascript
 - add `/assets/images/avatar.png`
 - add 404
 - add favicon
