@@ -1,0 +1,65 @@
+title: Alignment Credit
+timezone: America/New_York
+url: http://alignmentcredit.com
+description: Alignment Credit provides credit financing solutions for emerging growth & middle-market companies.
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  case_studies:
+    title: Case Studies
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    tags: 
+- scope:
+    path: ''
+    type: case_studies
+  values:
+    permalink: "/portfolio/:title/"
+    layout: posts
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- README*
+- '.gitignore'
+plugins:
+- jekyll-sitemap
+- jekyll-redirect-from
+- jekyll-seo-tag
+twitter:
+  username: alignmentcredit
+logo: /assets/images/avatar.png
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: |2+
+
+
+
+sass:
+  sass_dir: assets/styles/
+  style: compressed
+repository: justinjaywang/alignmentcredit.com
+google_analytics: 
+date_format: "%B %-d, %Y"
+nav:
+  header:
+  - text: Our Advantage
+    link: /about/
+  - text: Case Studies
+    link: /portfolio/
+  - text: Contact
+    link: /contact/

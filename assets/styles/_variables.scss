@@ -1,0 +1,55 @@
+// colors
+// ------
+
+$color--black: rgba(0,0,0,0.95);
+$color--white: #fff;
+
+// $color--navy:   #262261;
+// $color--yellow: #FAAF40;
+// $color--green:  #00A69C;
+// $color--purple: #5848DE;
+// $color--red:    #E72351;
+// $color--blue:   #277CEA;
+
+// typography
+// ----------
+
+$font-size--html:    18px;
+$font-size--html-md: 16px;
+
+$font-size--normal: 1em;
+$font-size--small:  0.833333em;
+
+$courier: Courier, "Courier New", monospace;
+$chivo:   "Chivo", sans-serif;
+
+$font-family--body:      $chivo;
+$font-family--monospace: $courier;
+
+$line-height--normal: 1.5;
+
+// sizing and spacing
+// ------------------
+
+$v: $line-height--normal * 1rem;
+
+$char: 54/5 * 1px; // 1 monospace char
+$char-md: 48/5 * 1px;
+
+// grid
+// ----
+
+$max-width--container: 1440px;
+
+// xs | sm | md | lg
+$bp-xs-sm: 36rem;
+$bp-sm-md: 54rem;
+$bp-md-lg: 72rem;
+
+$gutter:    1.5rem;
+$gutter-sm: 1rem;
+
+// miscellaneous
+// -------------
+
+$opacity--faded: 0.5;

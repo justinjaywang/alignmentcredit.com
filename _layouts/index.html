@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{{ page.content | markdownify }}
+
+{% for post in site.posts %}
+  {% include post.html post=post %}
+{% endfor %}
