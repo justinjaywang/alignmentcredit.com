@@ -4,6 +4,6 @@ layout: default
 
 {{ page.content | markdownify }}
 
-{% for post in site.posts %}
+{% for post in site.posts limit:site.recent_posts %}
   {% include post.html post=post %}
 {% endfor %}

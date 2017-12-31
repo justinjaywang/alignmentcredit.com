@@ -5,7 +5,7 @@ description: Alignment Credit provides credit financing solutions for emerging g
 collections:
   posts:
     title: Posts
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -16,20 +16,19 @@ defaults:
 - scope:
     path: ''
   values:
-    layout: post
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    tags: 
+    layout: page
 - scope:
     path: ''
     type: case_studies
   values:
     permalink: "/portfolio/:title/"
-    layout: posts
+    layout: case_study
+    investment:
+    - 
+    value-add:
+    - 
+    link: 
+    asset: 
 permalink: pretty
 exclude:
 - Gemfile
@@ -63,3 +62,4 @@ nav:
     link: /portfolio/
   - text: Contact
     link: /contact/
+recent_posts: 3

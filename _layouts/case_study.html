@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{{ page.content | markdownify }}
+
+<ul>
+  <h4>Investment</h4>
+  {% for i in page.investment %}
+    <li>{{ i }}</li>
+  {% endfor %}
+</ul>
+<ul>
+  <h4>Value-Add</h4>
+  {% for v in page.value-add %}
+    <li>{{ v }}</li>
+  {% endfor %}
+</ul>
+
+<footer>
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}">Prev: {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
+  {% endif %}
+</footer>
