@@ -1,7 +1,7 @@
 // colors
 // ------
 
-$color--black: #132242;
+$color--black: #111E3D;
 $color--white: #fff;
 
 $color--blue:   #1654be;
@@ -20,14 +20,15 @@ $color--silver: #f6f8fa;
 $font-size--html:    20px;
 $font-size--html-md: 17.5px;
 
+$font-size--large:  1.166667em;
 $font-size--normal: 1em;
 $font-size--small:  0.833333em;
 
-$courier: Courier, "Courier New", monospace;
-$chivo:   "Chivo", sans-serif;
+$mono: Courier, "Courier New", monospace;
+$sans: "Chivo", sans-serif;
 
-$font-family--body:      $chivo;
-$font-family--monospace: $courier;
+$font-family--body:      $sans;
+$font-family--monospace: $mono;
 
 $line-height--normal: 1.5;
 
