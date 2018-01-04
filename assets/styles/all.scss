@@ -81,10 +81,10 @@ pre {
   padding: $v/2;
 }
 
-// body copy
-// ---------
+// rich text editor
+// ----------------
 
-.bc {
+.rte {
   a {
     @extend u;
   }
@@ -245,6 +245,13 @@ pre {
   line-height: 1;
   @extend strong;
   text-align: center;
+}
+.section__title {
+  @extend .faded;
+}
+.post__date {
+  text-align: right;
+  display: block;
 }
 
 // grid
