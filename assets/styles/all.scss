@@ -259,6 +259,7 @@ pre {
 .case-study__thumb {
   @include cover;
   padding-top: 50%;
+  margin-bottom: $v;
 }
 .case-studies {
   margin-bottom: $v*6;
