@@ -2,8 +2,7 @@
 layout: default
 ---
 
-{{ page.content | markdownify }}
-
+<h4>Recent Developments</h4>
 {% for post in site.posts limit:site.recent_posts %}
   {% include post.html post=post %}
 {% endfor %}

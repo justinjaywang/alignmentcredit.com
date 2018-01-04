@@ -43,6 +43,9 @@ twitter:
   username: alignmentcredit
 logo: /assets/images/avatar.png
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
 highlighter: rouge
 excerpt_separator: |2+
 
@@ -57,9 +60,17 @@ date_format: "%B %-d, %Y"
 nav:
   header:
   - text: Our Advantage
-    link: /about/
+    link: /about/debt-vs-equity/
   - text: Case Studies
     link: /portfolio/
-  - text: Contact
-    link: /contact/
 recent_posts: 3
+about_pages:
+- Debt vs. Equity
+- Partnering with Alignment
+- Target Investments
+contact:
+  email: info@alignmentcredit.com
+  address: |-
+    73 Spring Street, Suite 207<br>
+    New York, NY 10012
+  map_link: https://goo.gl/maps/jrZjJSh7tUE2

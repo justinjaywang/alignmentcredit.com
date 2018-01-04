@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{{ page.content | markdownify }}
-
 {% for case_study in site.case_studies %}
   <a href="{{ case_study.url }}">{{ case_study.title }}</a>
 {% endfor %}

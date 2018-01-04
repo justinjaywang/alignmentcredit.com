@@ -1,8 +1,11 @@
 // colors
 // ------
 
-$color--black: rgba(0,0,0,0.95);
+$color--black: #111D39;
 $color--white: #fff;
+
+$color--blue:   #1654be;
+$color--silver: #f6f8fa;
 
 // $color--navy:   #262261;
 // $color--yellow: #FAAF40;
@@ -14,8 +17,8 @@ $color--white: #fff;
 // typography
 // ----------
 
-$font-size--html:    18px;
-$font-size--html-md: 16px;
+$font-size--html:    20px;
+$font-size--html-md: 17.5px;
 
 $font-size--normal: 1em;
 $font-size--small:  0.833333em;
@@ -33,13 +36,10 @@ $line-height--normal: 1.5;
 
 $v: $line-height--normal * 1rem;
 
-$char: 54/5 * 1px; // 1 monospace char
-$char-md: 48/5 * 1px;
-
 // grid
 // ----
 
-$max-width--container: 1440px;
+$max-width--container: 1220px;
 
 // xs | sm | md | lg
 $bp-xs-sm: 36rem;
@@ -52,4 +52,5 @@ $gutter-sm: 1rem;
 // miscellaneous
 // -------------
 
-$opacity--faded: 0.5;
+$opacity--faded: 0.4;
+$opacity--faint: 0.1;
