@@ -2,26 +2,53 @@
 layout: default
 ---
 
-{{ page.content | markdownify }}
+<section class="case-study row">
 
-<ul>
-  <h4>Investment</h4>
-  {% for i in page.investment %}
-    <li>{{ i }}</li>
-  {% endfor %}
-</ul>
-<ul>
-  <h4>Value-Add</h4>
-  {% for v in page.value-add %}
-    <li>{{ v }}</li>
-  {% endfor %}
-</ul>
+  <div class="col col-6 xs-col-12">
+    <a href="{{ page.url }}" class="case-study__thumb" style="background-image: url('{{ page.image }}');"></a>
+  </div>
 
-<footer>
-  {% if page.previous %}
-    <a href="{{ page.previous.url }}">Prev: {{ page.previous.title }}</a>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
-  {% endif %}
-</footer>
+  <div class="col col-6 xs-col-12">
+    <section class="case-study__section">
+      {{ page.content | markdownify }}
+    </section>
+    <ul class="case-study__section">
+      <h4>Investment</h4>
+      {% for i in page.investment %}
+        <li>{{ i }}</li>
+      {% endfor %}
+    </ul>
+    <ul class="case-study__section">
+      <h4>Value-Add</h4>
+      {% for v in page.value-add %}
+        <li>{{ v }}</li>
+      {% endfor %}
+    </ul>
+    <section class="case-study__section">
+      <h4>Website</h4>
+      <a href="{{ page.link }}">{{ page.link | split: '://' | last | split: '/' | first | remove: 'www.' }}</a>
+    </section>
+  </div>
+
+</section>
+
+<nav class="row case-study-nav">
+  <div class="col col-6 case-study-nav__previous">
+    <h4>Previous</h4>
+    {% if page.next %}
+      <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+    {% else %}
+      {% assign first = site.case_studies.first %}
+      <a href="{{ first.url }}">{{ first.title }}</a>
+    {% endif %}
+  </div>
+  <div class="col col-6 case-study-nav__next">
+    <h4>Next</h4>
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% else %}
+      {% assign last = site.case_studies.last %}
+      <a href="{{ last.url }}">{{ last.title }}</a>
+    {% endif %}
+  </div>
+</nav>

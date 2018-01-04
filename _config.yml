@@ -28,7 +28,7 @@ defaults:
     value-add:
     - 
     link: 
-    asset: 
+    image: 
 permalink: pretty
 exclude:
 - Gemfile

@@ -231,7 +231,6 @@ pre {
 }
 .footer {
   background-color: $color--silver;
-  margin-top: $v*6;
   padding-top: $v*3;
   padding-bottom: $v*3;
 }
@@ -252,6 +251,26 @@ pre {
 .post__date {
   text-align: right;
   display: block;
+}
+.developments {
+  margin-bottom: $v*4;
+}
+.case-study-preview__thumb,
+.case-study__thumb {
+  @include cover;
+  padding-top: 50%;
+}
+.case-studies {
+  margin-bottom: $v*6;
+}
+.case-study {
+  margin-bottom: $v*6;
+}
+.case-study-nav {
+  margin-bottom: $v*4;
+}
+.case-study-nav__next {
+  text-align: right;
 }
 
 // grid

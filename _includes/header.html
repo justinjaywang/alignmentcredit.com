@@ -13,7 +13,7 @@
       {% endcapture %}{{ nav__items | normalize_whitespace | replace: '> <', '><' }}
     </nav>
     <section class="banner">
-      <h1 class="banner__title">{{ page.title }}</h1>
+      <h1 class="banner__title">{% if page.layout == 'case_study' %}Case Studies{% else %}{{ page.title }}{% endif %}</h1>
     </section>
   </div>
 </header>

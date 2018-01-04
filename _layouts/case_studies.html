@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<section class="case-studies row">
+  {% assign sorted_case_studies = site.case_studies | sort: 'position' %}
+  {% for case_study in sorted_case_studies  %}
+    <div class="case-study-preview col col-4 sm-col-6">
+      <a href="{{ case_study.url }}" class="case-study-preview__thumb" style="background-image: url('{{ case_study.image }}');"></a>
+      <h4 class="case-study-preview__title">
+        <a href="{{ case_study.url }}">{{ case_study.title }}</a>
+      </h4>
+    </div>
+  {% endfor %}
+</section>
