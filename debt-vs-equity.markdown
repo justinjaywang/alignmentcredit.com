@@ -1,6 +1,7 @@
 ---
 title: Debt vs. Equity
 permalink: "/about/debt-vs-equity/"
+position: 0
 layout: about
 banner_image: "/uploads/banner-02.jpg"
 ---

@@ -1,6 +1,7 @@
 ---
 title: Partnering with Alignment
 permalink: "/about/partnering/"
+position: 2
 layout: about
 banner_image: "/uploads/banner-03.jpg"
 ---

@@ -1,6 +1,7 @@
 ---
 title: Target Investments
 permalink: "/about/target-investments/"
+position: 3
 layout: about
 banner_image: "/uploads/banner-11.jpg"
 ---
