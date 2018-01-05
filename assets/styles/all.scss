@@ -364,9 +364,6 @@ code {
 .about-menu {
   margin-bottom: $v*3;
 }
-.about-menu__item {
-  // margin-bottom: $v/4;
-}
 .about__content > ul > li,
 .ruled-list > li {
   border-bottom: 1px solid $color--hr;
@@ -532,7 +529,6 @@ a.fade {
     position: relative;
     top: 0.2em;
     width: 1em;
-    @include transition-transform(.15s);
   }
   &.button--inverse:after {
     content: url(/assets/images/icon--right--inverse.svg);
@@ -548,7 +544,6 @@ a.fade {
     position: relative;
     top: 0.2em;
     width: 1em;
-    @include transition-transform(.15s);
   }
   &.button--inverse:before {
     content: url(/assets/images/icon--left--inverse.svg);

@@ -3,7 +3,7 @@
     @include transform(translateX(0));
   }
   50% {
-    @include transform(translateX(0.2em));
+    @include transform(translateX(0.25em));
   }
   100% {
     @include transform(translateX(0));
@@ -14,7 +14,7 @@
     @include transform(translateX(0));
   }
   50% {
-    @include transform(translateX(-0.2em));
+    @include transform(translateX(-0.25em));
   }
   100% {
     @include transform(translateX(0));
