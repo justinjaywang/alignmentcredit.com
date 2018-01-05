@@ -37,8 +37,6 @@ With GitHub sync enabled, push to GitHub. Then publish on Siteleaf.
 ---
 ## To Do
 
-- add javascript
-  - make header image do shit
 - add 404
 - add favicon
 - add `/assets/images/avatar.png`
