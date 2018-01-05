@@ -10,15 +10,9 @@ layout: default
     {% for post in site.posts limit:site.recent_posts %}
       <li class="post">
         <a href="{{ post.link }}" class="post__link">
-          <div class="row">
-            <div class="col col-9">
-              <h2 class="post__title">{{ post.title }}</h2>
-              {% comment %}<span class="post__url">{{ post.link | split: '://' | last | split: '/' | first | remove: 'www.' }}</span>{% endcomment %}
-            </div>
-            <div class="col col-3">
-              <time datetime="{{ post.date | date_to_xmlschema }}" class="post__date">{{ post.date | date: site.date_format }}</time>
-            </div>
-          </div>
+          <h2 class="post__title">{{ post.title }}</h2>
+          {% comment %}<span class="post__url">{{ post.link | split: '://' | last | split: '/' | first | remove: 'www.' }}</span>{% endcomment %}
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="post__date">{{ post.date | date: site.date_format }}</time>
         </a>
       </li>
     {% endfor %}
