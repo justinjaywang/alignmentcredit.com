@@ -3,10 +3,10 @@ layout: default
 ---
 
 <section class="developments row">
-  <div class="col col-4 sm-col-12">
+  <div class="col col-4 xs-col-12">
     <h4 class="section__title mbv1">Recent Developments</h4>
   </div>
-  <ul class="col col-8 sm-col-12 ruled-list">
+  <ul class="col col-8 xs-col-12 ruled-list">
     {% for post in site.posts limit:site.recent_posts %}
       <li class="post">
         <a href="{{ post.link }}" class="post__link">
