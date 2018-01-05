@@ -1,25 +1,27 @@
-<header
-  class="header {% if page.banner_image %} header--image{% endif %}"
-  {% if page.banner_image %} style="background-image: url('{{ page.banner_image }}');"{% endif %}
-  >
-  <div class="container">
-    <nav class="nav row">
-      <div class="col col-4 xs-col-12">
-        <a href="/" class="title">{{ site.title }}</a>
-      </div>
-      {% capture nav__items %}
-        <ul class="nav__items col col-8 xs-col-12">
-          {% for item in site.nav.header %}
-            <li class="nav__item"><a href="{{ item.link }}" class=" {% unless page.url contains item.link %} faded{% endunless %}">{{ item.text }}</a></li>
-          {% endfor %}
-        </ul>
-      {% endcapture %}{{ nav__items | normalize_whitespace | replace: '> <', '><' }}
-    </nav>
-    <section class="banner">
-      <h1 class="banner__title">{% if page.layout == 'case_study' %}Case Studies{% else %}{{ page.title }}{% endif %}</h1>
-      {% if page.layout == 'index' %}
-        <a href="/about/debt-vs-equity/" class="button banner__button">Learn more</a>
-      {% endif %}
-    </section>
-  </div>
+<header class="header {% if page.banner_image %} header--image{% endif %}">
+  {% if page.banner_image %}
+    <div class="header__image" style="background-image: url('{{ page.banner_image }}');"></div>
+  {% endif %}
+
+    <div class="header__inner container">
+      <nav class="nav row">
+        <div class="col col-4 xs-col-12">
+          <a href="/" class="title">{{ site.title }}</a>
+        </div>
+        {% capture nav__items %}
+          <ul class="nav__items col col-8 xs-col-12">
+            {% for item in site.nav.header %}
+              <li class="nav__item"><a href="{{ item.link }}" class="{% if page.url contains item.link %} active{% endif %}">{{ item.text }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endcapture %}{{ nav__items | normalize_whitespace | replace: '> <', '><' }}
+      </nav>
+      <section class="banner">
+        <h1 class="banner__title">{% if page.layout == 'case_study' %}Case Studies{% else %}{{ page.title }}{% endif %}</h1>
+        {% if page.layout == 'index' %}
+          <a href="/about/debt-vs-equity/" class="button banner__button">Learn more</a>
+        {% endif %}
+      </section>
+    </div>
+
 </header>

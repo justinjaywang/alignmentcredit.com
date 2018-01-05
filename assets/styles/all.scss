@@ -210,16 +210,31 @@ code {
   @extend strong;
 }
 .header {
-  padding-top: $v*1;
   margin-bottom: $v*3;
+  position: relative;
 }
 .header--image {
+  background-color: $color--blue;
+  color: $color--white;
+  .header__inner {
+    position: relative;
+    z-index: 2;
+    padding-bottom: $v*2;
+  }
+}
+.header__image {
   background-size: 100% 100%;
   background-position: center;
-  color: $color--white;
-  padding-bottom: $v*2;
+  opacity: 0.666667;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .nav {
+  padding-top: $v*1;
   margin-bottom: $v*4;
   @media (max-width: $bp-md-lg) {
     margin-bottom: $v*3;
