@@ -222,7 +222,7 @@ code {
 .header__image {
   background-size: 100% 100%;
   background-position: center;
-  opacity: 0.666667;
+  opacity: 0.5;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -308,6 +308,12 @@ code {
 .post__date {
   text-align: right;
   display: block;
+  @extend .faded;
+}
+.post__link:hover {
+  .post__title {
+    opacity: $opacity--faded;
+  }
 }
 .developments {
   margin-bottom: $v*4;

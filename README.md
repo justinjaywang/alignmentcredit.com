@@ -25,9 +25,6 @@ JEKYLL_ENV=production jekyll build
 ---
 ## to do
 
-- style that shit
-  - link arrows
-  - .rte links, link behaviors and easing
 - add javascript
   - make header image do shit
 - add 404

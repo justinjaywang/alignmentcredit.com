@@ -4,20 +4,22 @@ layout: default
 
 <section class="developments row">
   <div class="col col-4 sm-col-12">
-    <h4 class="section__title">Recent Developments</h4>
+    <h4 class="section__title mbv1">Recent Developments</h4>
   </div>
   <ul class="col col-8 sm-col-12 ruled-list">
     {% for post in site.posts limit:site.recent_posts %}
       <li class="post">
-        <div class="row">
-          <div class="col col-9">
-            <h2><a href="{{ post.link }}" class="post__title">{{ post.title }}</a></h2>
-            <a href="{{ post.link }}" class="post__link faded button button--ext">{{ post.link | split: '://' | last | split: '/' | first | remove: 'www.' }}</a>
+        <a href="{{ post.link }}" class="post__link">
+          <div class="row">
+            <div class="col col-9">
+              <h2 class="post__title">{{ post.title }}</h2>
+              {% comment %}<span class="post__url">{{ post.link | split: '://' | last | split: '/' | first | remove: 'www.' }}</span>{% endcomment %}
+            </div>
+            <div class="col col-3">
+              <time datetime="{{ post.date | date_to_xmlschema }}" class="post__date">{{ post.date | date: site.date_format }}</time>
+            </div>
           </div>
-          <div class="col col-3">
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="post__date"><a href="{{ post.link }}" class="faded">{{ post.date | date: site.date_format }}</a></time>
-          </div>
-        </div>
+        </a>
       </li>
     {% endfor %}
   </ul>
