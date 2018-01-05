@@ -5,19 +5,19 @@ layout: default
 <section class="about">
   <div class="row">
     <ul class="about-menu col col-4 sm-col-12">
-      {% for about_page_title in site.about_pages %}
+      {% assign about_pages = site.pages | where: 'layout', 'about' | sort: 'position' %}
+      {% for about_page in about_pages %}
         <li class="about-menu__item">
-          {% if page.title == about_page_title %}
+          {% if page.title == about_page.title %}
             {% assign is_active = true %}
           {% else %}
             {% assign is_active = false %}
-            {% assign about_page = site.pages | where: "title", about_page_title | first %}
           {% endif %}
             <h3 class="about-page__title{% if is_active %} faded{% endif %}">
               {% unless is_active %}
                 <a href="{{ about_page.url }}" class="underlined fade">
               {% endunless %}
-              {{ about_page_title }}
+              {{ about_page.title }}
               {% unless is_active %}
                 </a>
               {% endunless %}
