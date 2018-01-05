@@ -14,6 +14,9 @@
     </nav>
     <section class="banner">
       <h1 class="banner__title">{% if page.layout == 'case_study' %}Case Studies{% else %}{{ page.title }}{% endif %}</h1>
+      {% if page.layout == 'index' %}
+        <a href="/about/debt-vs-equity/" class="button banner__button">Learn more</a>
+      {% endif %}
     </section>
   </div>
 </header>

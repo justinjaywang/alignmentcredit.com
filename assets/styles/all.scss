@@ -210,12 +210,17 @@ code {
   @extend strong;
 }
 .header {
-  margin-top: $v*1.5;
-  margin-bottom: $v*1.5;
+  padding-top: $v*1;
+  margin-bottom: $v*3;
+}
+.header--image { // TO DO
+  padding-bottom: $v*1.5;
 }
 .nav {
-  margin-top: $v*1.5;
-  margin-bottom: $v*1.5;
+  margin-bottom: $v*4;
+  @media (max-width: $bp-md-lg) {
+    margin-bottom: $v*3;
+  }
 }
 .nav__items {
   text-align: right;
@@ -244,15 +249,27 @@ code {
   padding-bottom: $v*3;
 }
 .banner {
-  max-width: 45rem;
+  max-width: 42em;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 .banner__title {
   font-size: 3.333333em;
   line-height: 1;
   @extend strong;
-  text-align: center;
+  @media (max-width: $bp-md-lg) {
+    font-size: 2.75em;
+  }
+  @media (max-width: $bp-sm-md) {
+    font-size: 2.5em;
+  }
+  @media (max-width: $bp-xs-sm) {
+    font-size: 2em;
+  }
+}
+.banner__button {
+  margin-top: $v;
 }
 .section__title {
   @extend .faded;
@@ -270,13 +287,37 @@ code {
   padding-top: 50%;
   margin-bottom: $v;
 }
+.case-study-preview__thumb-wrap,
+.case-study__thumb-wrap {
+  max-width: 22.5rem;
+  @media (max-width: $bp-xs-sm) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.case-study-preview {
+  margin-bottom: $v*3;
+}
 .case-studies {
   margin-bottom: $v*6;
 }
 .case-study {
   margin-bottom: $v*6;
 }
+.case-study__section {
+  margin-bottom: $v/2;
+  border-top: 1px solid $color--hr;
+  padding-top: $padding--hr;
+  &:first-of-type {
+    border-top-color: transparent;
+  }
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
 .case-study-nav {
+  border-top: 1px solid $color--hr;
+  padding-top: $padding--hr;
   margin-bottom: $v*4;
 }
 .case-study-nav__next {
@@ -287,6 +328,38 @@ code {
   margin-right: auto;
   max-width: 36rem;
   margin-bottom: $v*4;
+}
+.about-menu {
+  margin-bottom: $v*1.75;
+}
+.about-menu__item {
+  margin-bottom: $v/4;
+}
+.about__content > ul > li,
+.ruled-list > li {
+  border-bottom: 1px solid $color--hr;
+  padding-top: $padding--hr;
+  padding-bottom: $padding--hr;
+  &:first-of-type {
+    padding-top: 0;
+  }
+  &:last-of-type {
+    border-bottom-color: transparent;
+    padding-bottom: 0;
+  }
+}
+.about__content {
+  margin-bottom: $v*4;
+  & > ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  ul {
+    margin-bottom: 0;
+  }
+  ul li ul {
+    margin-top: $v/2;
+  }
 }
 
 // grid
@@ -404,6 +477,9 @@ a.fade:hover {
 }
 .inline {
   display: inline;
+}
+.button {
+  display: inline-block;
 }
 
 .mt0 { margin-top: 0; }

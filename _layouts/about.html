@@ -4,28 +4,28 @@ layout: default
 
 <section class="about">
   <div class="row">
-    <ul class="about-pages col col-4 xs-col-12">
+    <ul class="about-menu col col-4 sm-col-12">
       {% for about_page_title in site.about_pages %}
-        <li class="about-page">
+        <li class="about-menu__item">
           {% if page.title == about_page_title %}
             {% assign is_active = true %}
           {% else %}
             {% assign is_active = false %}
             {% assign about_page = site.pages | where: "title", about_page_title | first %}
           {% endif %}
-          {% unless is_active %}
-            <a href="{{ about_page.url }}">
-          {% endunless %}
-              <h3 class="about-page__title{% if is_active %} faded{% endif %}">
-                {{ about_page_title }}
-              </h3>
-          {% unless is_active %}
-            </a>
-          {% endunless %}
+            <h3 class="about-page__title">
+              {% unless is_active %}
+                <a href="{{ about_page.url }}" class="faded">
+              {% endunless %}
+              {{ about_page_title }}
+              {% unless is_active %}
+                </a>
+              {% endunless %}
+            </h3>
         </li>
       {% endfor %}
     </ul>
-    <div class="col col-8 xs-col-12 rte">
+    <div class="col col-8 sm-col-12 rte about__content">
       {{ page.content | markdownify }}
     </div>
   </div>
