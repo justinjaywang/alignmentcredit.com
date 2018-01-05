@@ -1,7 +1,7 @@
 // colors
 // ------
 
-$color--black: #111E3D;
+$color--black: #111;
 $color--white: #fff;
 
 $color--blue:   #1654be;
@@ -54,7 +54,9 @@ $gutter-sm: 1.25rem;
 // -------------
 
 $opacity--faded: 0.4;
-$opacity--faint: 0.1;
+$opacity--faint: 0.08;
 
 $padding--hr: $v/2;
 $color--hr:   rgba($color--black, $opacity--faint);
+
+$duration--normal: 150ms;

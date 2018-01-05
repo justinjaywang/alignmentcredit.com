@@ -13,9 +13,9 @@ layout: default
             {% assign is_active = false %}
             {% assign about_page = site.pages | where: "title", about_page_title | first %}
           {% endif %}
-            <h3 class="about-page__title">
+            <h3 class="about-page__title{% if is_active %} faded{% endif %}">
               {% unless is_active %}
-                <a href="{{ about_page.url }}" class="faded">
+                <a href="{{ about_page.url }}" class="underlined fade">
               {% endunless %}
               {{ about_page_title }}
               {% unless is_active %}

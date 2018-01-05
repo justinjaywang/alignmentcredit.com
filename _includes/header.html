@@ -6,12 +6,12 @@
     <div class="header__inner container">
       <nav class="nav row">
         <div class="col col-4 xs-col-12">
-          <a href="/" class="title">{{ site.title }}</a>
+          <a href="/" class="title fade">{{ site.title }}</a>
         </div>
         {% capture nav__items %}
           <ul class="nav__items col col-8 xs-col-12">
             {% for item in site.nav.header %}
-              <li class="nav__item"><a href="{{ item.link }}" class="{% if page.url contains item.link %} active{% endif %}">{{ item.text }}</a></li>
+              <li class="nav__item"><a href="{{ item.link }}" class="nav__link fade{% if page.url contains item.link %} active{% endif %}">{{ item.text }}</a></li>
             {% endfor %}
           </ul>
         {% endcapture %}{{ nav__items | normalize_whitespace | replace: '> <', '><' }}
@@ -19,7 +19,7 @@
       <section class="banner">
         <h1 class="banner__title">{% if page.layout == 'case_study' %}Case Studies{% else %}{{ page.title }}{% endif %}</h1>
         {% if page.layout == 'index' %}
-          <a href="/about/debt-vs-equity/" class="button banner__button">Learn more</a>
+          <a href="/about/debt-vs-equity/" class="button banner__button{% if page.banner_image %} button--inverse{% endif %} button--right fade">Learn more</a>
         {% endif %}
       </section>
     </div>

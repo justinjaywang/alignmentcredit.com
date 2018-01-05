@@ -7,7 +7,7 @@ layout: default
   {% for case_study in sorted_case_studies  %}
     <div class="case-study-preview col col-4 sm-col-6 xs-col-12">
       <div class="case-study-preview__thumb-wrap">
-        <a href="{{ case_study.url }}" class="case-study-preview__thumb" style="background-image: url('{{ case_study.image }}');"></a>
+        <a href="{{ case_study.url }}" class="case-study-preview__thumb fade fade--small" style="background-image: url('{{ case_study.image }}');"></a>
       </div>
       <h4 class="case-study-preview__title">
         <a href="{{ case_study.url }}" class="faded">{{ case_study.title }}</a>

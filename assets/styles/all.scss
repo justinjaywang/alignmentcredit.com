@@ -6,6 +6,7 @@
 @import 'reset';
 @import 'mixins';
 @import 'variables';
+@import 'animations';
 
 // base
 // ----
@@ -62,13 +63,6 @@ em,
 i {
   font-style: italic;
 }
-del,
-s {
-  text-decoration: line-through;
-}
-u {
-  text-decoration: underline;
-}
 pre,
 code,
 kbd,
@@ -90,7 +84,10 @@ code {
 
 .rte {
   a {
-    @extend u;
+    @extend .underlined;
+    &:hover {
+      opacity: $opacity--faded;
+    }
   }
   h1,
   h2,
@@ -261,6 +258,22 @@ code {
     margin-right: 0;
   }
 }
+// .nav__link { // TEMP
+//   display: inline-block;
+//   &:before {
+//     @include transition(opacity $duration--normal);
+//     content: '';
+//     height: 2px;
+//     width: 0;
+//     background: #000;
+//     position: relative;
+//     margin-left: auto;
+//     margin-right: auto;
+//     display: block;
+//     opacity: 0;
+//     top: 28px;
+//   }
+// }
 .footer {
   background-color: $color--silver;
   padding-top: $v*3;
@@ -301,6 +314,7 @@ code {
 }
 .case-study-preview__thumb,
 .case-study__thumb {
+  opacity: 0.94;
   @include cover;
   padding-top: 50%;
   margin-bottom: $v;
@@ -348,10 +362,10 @@ code {
   margin-bottom: $v*4;
 }
 .about-menu {
-  margin-bottom: $v*1.75;
+  margin-bottom: $v*3;
 }
 .about-menu__item {
-  margin-bottom: $v/4;
+  // margin-bottom: $v/4;
 }
 .about__content > ul > li,
 .ruled-list > li {
@@ -487,6 +501,13 @@ a.faded:hover {
 a.fade:hover {
   opacity: $opacity--faded;
 }
+a.fade--small:hover {
+  opacity: 0.6;
+}
+a.faded,
+a.fade {
+  @include transition(opacity $duration--normal);
+}
 .block {
   display: block;
 }
@@ -497,7 +518,44 @@ a.fade:hover {
   display: inline;
 }
 .button {
+  position: relative;
   display: inline-block;
+}
+.underlined {
+  border-bottom: 1px solid $color--black;
+}
+
+.button--right {
+  &:after {
+    content: url(/assets/images/icon--right.svg);
+    display: inline-block;
+    position: relative;
+    top: 0.2em;
+    width: 1em;
+    @include transition-transform(.15s);
+  }
+  &.button--inverse:after {
+    content: url(/assets/images/icon--right--inverse.svg);
+  }
+  &:hover:after {
+    @include animation(arrowJostleRight .4s);
+  }
+}
+.button--left {
+  &:before {
+    content: url(/assets/images/icon--left.svg);
+    display: inline-block;
+    position: relative;
+    top: 0.2em;
+    width: 1em;
+    @include transition-transform(.15s);
+  }
+  &.button--inverse:before {
+    content: url(/assets/images/icon--left--inverse.svg);
+  }
+  &:hover:before {
+    @include animation(arrowJostleLeft .4s);
+  }
 }
 
 .mt0 { margin-top: 0; }

@@ -1,0 +1,22 @@
+@include keyframes(arrowJostleRight) {
+  0% {
+    @include transform(translateX(0));
+  }
+  50% {
+    @include transform(translateX(0.2em));
+  }
+  100% {
+    @include transform(translateX(0));
+  }
+}
+@include keyframes(arrowJostleLeft) {
+  0% {
+    @include transform(translateX(0));
+  }
+  50% {
+    @include transform(translateX(-0.2em));
+  }
+  100% {
+    @include transform(translateX(0));
+  }
+}

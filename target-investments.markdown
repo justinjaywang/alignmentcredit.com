@@ -12,6 +12,6 @@ banner_image: "/uploads/banner-11.jpg"
   - Late-stage venture companies with proven business models
   - $10+ million in sales
 - Ownership:
-   - Founder or management controlled
+  - Founder or management controlled
   - Venture capital or private equity backed
 - Businesses committed to delivering a positive impact on their sectors and society
