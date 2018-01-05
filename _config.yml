@@ -36,6 +36,7 @@ exclude:
 - Gemfile.lock
 - README*
 - '.gitignore'
+- node_modules
 plugins:
 - jekyll-sitemap
 - jekyll-redirect-from
