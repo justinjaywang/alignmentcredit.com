@@ -1,16 +1,15 @@
+---
 title: Alignment Credit
 timezone: America/New_York
-url: http://alignmentcredit.com
-description: Alignment Credit provides credit financing solutions for emerging growth & middle-market companies.
 collections:
-  posts:
-    title: Posts
-    output: false
-  uploads:
-    title: Uploads
-    output: true
   case_studies:
     title: Case Studies
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
     output: true
 defaults:
 - scope:
@@ -30,12 +29,15 @@ defaults:
     - 
     link: 
     image: 
+url: http://alignmentcredit.com
+description: Alignment Credit provides credit financing solutions for emerging growth
+  & middle-market companies.
 permalink: pretty
 exclude:
 - Gemfile
 - Gemfile.lock
 - README*
-- '.gitignore'
+- ".gitignore"
 - node_modules
 plugins:
 - jekyll-sitemap
@@ -43,7 +45,7 @@ plugins:
 - jekyll-seo-tag
 twitter:
   username: alignmentcredit
-logo: /assets/images/avatar.png
+logo: "/assets/images/avatar.png"
 markdown: kramdown
 kramdown:
   input: GFM
@@ -62,9 +64,9 @@ date_format: "%b %-d, %Y"
 nav:
   header:
   - text: Our Advantage
-    link: /about/debt-vs-equity/
+    link: "/about/debt-vs-equity/"
   - text: Case Studies
-    link: /portfolio/
+    link: "/portfolio/"
 recent_posts: 3
 about_pages:
 - Debt vs. Equity

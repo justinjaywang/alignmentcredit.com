@@ -1,6 +1,6 @@
 ---
 title: Collaborative Fund announces partnership with Alignment Credit
-date: 2018-01-03
+date: 2018-01-03 00:00:00 -05:00
 link: http://www.collaborativefund.com/blog/the-greatest-story-ever-told/
 ---
 
