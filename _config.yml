@@ -23,6 +23,7 @@ defaults:
   values:
     permalink: "/portfolio/:title/"
     layout: case_study
+    banner_image: "/uploads/banner-01.jpg"
     investment:
     - 
     value-add:

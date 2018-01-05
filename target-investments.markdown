@@ -2,6 +2,7 @@
 title: Target Investments
 layout: about
 permalink: "/about/target-investments/"
+banner_image: "/uploads/banner-11.jpg"
 ---
 
 - Sector-agnostic with North American focus

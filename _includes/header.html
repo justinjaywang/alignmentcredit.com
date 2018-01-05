@@ -1,4 +1,7 @@
-<header class="header header--{{ page.layout }}">
+<header
+  class="header {% if page.banner_image %} header--image{% endif %}"
+  {% if page.banner_image %} style="background-image: url('{{ page.banner_image }}');"{% endif %}
+  >
   <div class="container">
     <nav class="nav row">
       <div class="col col-4 xs-col-12">

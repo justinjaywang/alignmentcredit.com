@@ -213,8 +213,11 @@ code {
   padding-top: $v*1;
   margin-bottom: $v*3;
 }
-.header--image { // TO DO
-  padding-bottom: $v*1.5;
+.header--image {
+  background-size: 100% 100%;
+  background-position: center;
+  color: $color--white;
+  padding-bottom: $v*2;
 }
 .nav {
   margin-bottom: $v*4;
