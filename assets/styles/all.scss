@@ -208,6 +208,9 @@ code {
 }
 .header {
   margin-bottom: $v*3;
+  @media (max-width: $bp-sm-md) {
+    margin-bottom: $v*2;
+  }
   position: relative;
 }
 .header--image {
@@ -266,6 +269,10 @@ code {
   background-color: $color--silver;
   padding-top: $v*3;
   padding-bottom: $v*3;
+  @media (max-width: $bp-sm-md) {
+    padding-top: $v*2;
+    padding-bottom: $v*2;
+  }
 }
 .banner {
   text-align: center;
@@ -321,13 +328,16 @@ code {
   }
 }
 .case-study-preview {
-  margin-bottom: $v*3;
+  margin-bottom: $v*2;
 }
 .case-studies {
   margin-bottom: $v*4;
 }
 .case-study {
   margin-bottom: $v*6;
+  @media (max-width: $bp-sm-md) {
+    margin-bottom: $v*4;
+  }
 }
 .case-study__section {
   margin-bottom: $v/2;
@@ -344,6 +354,9 @@ code {
   border-top: 1px solid $color--hr;
   padding-top: $padding--hr;
   margin-bottom: $v*4;
+  @media (max-width: $bp-sm-md) {
+    margin-bottom: $v*3;
+  }
 }
 .case-study-nav__next {
   text-align: right;
