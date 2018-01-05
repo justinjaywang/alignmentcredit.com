@@ -5,6 +5,14 @@ permalink: "/about/debt-vs-equity/"
 banner_image: "/uploads/banner-02.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere urna. Nulla sit amet dui pulvinar, accumsan ex vitae, condimentum tellus. Vivamus rhoncus lectus at risus dictum, nec scelerisque nunc faucibus. Vestibulum velit risus, commodo pretium elit quis, facilisis vulputate massa. Fusce molestie finibus lorem. Integer dignissim at ex a finibus. Donec eu nibh viverra, volutpat urna sagittis, ornare purus. Duis pulvinar orci eros.
-
-Donec ante est, condimentum quis quam et, consectetur interdum leo. Integer vitae ligula auctor, aliquam magna nec, dictum neque. Vivamus iaculis, risus eu venenatis rhoncus, est erat blandit velit, vitae finibus augue diam quis justo. Donec sit amet iaculis lorem, aliquam tincidunt nulla. Sed vulputate commodo tincidunt.
+- Superior cost of capital relative to equity
+- Greater flexibility than traditional bank facilities or venture debt
+- Extensive value-add capabilities and strategic partner network across:
+  - Capital markets and strategic advisory
+  - Traditional and digital tech, media and communications
+  - Consumer and retail
+  - Education and business services
+  - Financial services and fintech
+  - Healthcare
+  - International expansion, including Asia
+- Passive investment approach
