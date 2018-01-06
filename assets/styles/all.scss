@@ -205,12 +205,9 @@ code {
 
 .title {
   @extend strong;
+  white-space: nowrap;
 }
 .header {
-  margin-bottom: $v*3;
-  @media (max-width: $bp-sm-md) {
-    margin-bottom: $v*2;
-  }
   position: relative;
 }
 .header--image {
@@ -219,7 +216,10 @@ code {
   .header__inner {
     position: relative;
     z-index: 2;
-    padding-bottom: $v*2;
+    padding-bottom: $v*3;
+    @media (max-width: $bp-sm-md) {
+      padding-bottom: $v*2;
+    }
   }
 }
 .header__image {
@@ -246,7 +246,7 @@ code {
 }
 .nav__items {
   text-align: right;
-  @media (max-width: $bp-xs-sm) {
+  @media (max-width: $bp-nav) {
     text-align: left;
   }
 }
@@ -263,6 +263,20 @@ code {
   }
   &:last-of-type {
     margin-right: 0;
+  }
+}
+.nav__col {
+  &:first-child {
+    width: 4/12*100%;
+    @media (max-width: $bp-nav) {
+      width: 100%;
+    }
+  }
+  &:last-child {
+    width: 8/12*100%;
+    @media (max-width: $bp-nav) {
+      width: 100%;
+    }
   }
 }
 .footer {
@@ -296,6 +310,74 @@ code {
 }
 .banner__button {
   margin-top: $v;
+}
+.about__title {
+  font-size: 1.75em;
+  line-height: 1.2;
+  @extend strong;
+  @media (max-width: $bp-md-lg) {
+    font-size: 1.375em;
+  }
+  @media (max-width: $bp-sm-md) {
+    font-size: 1.25em;
+  }
+  @media (max-width: $bp-xs-sm) {
+    font-size: 1em;
+  }
+  margin-bottom: $v;
+}
+.main {
+  margin-top: $v*3;
+  @media (max-width: $bp-sm-md) {
+    margin-top: $v*2;
+  }
+}
+.tabs {
+  margin-top: -$v*3;
+  margin-bottom: $v*3;
+  @media (max-width: $bp-sm-md) {
+    margin-top: -$v*2;
+    margin-bottom: $v*2;
+  }
+  border-bottom: 1px solid $color--hr;
+}
+.tab {
+  display: inline-block;
+  @extend .sc;
+  margin-right: 1em;
+}
+.tab__link {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  display: block;
+  position: relative;
+  &:after {
+    content: '';
+    display: block;
+    background-color: transparent;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    @include transition(background-color $duration--normal);
+  }
+}
+.tab__link--active:after {
+  background-color: $color--black;
+}
+@media (max-width: $bp-tabs) {
+  .tabs {
+    border-bottom-color: transparent;
+    padding-top: $v;
+  }
+  .tab {
+    display: block;
+    border-bottom: 1px solid $color--hr;
+  }
+  .tab__link {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+  }
 }
 .section__title {
   @extend .faded;
@@ -366,9 +448,6 @@ code {
   margin-right: auto;
   max-width: 36rem;
   margin-bottom: $v*4;
-}
-.about-menu {
-  margin-bottom: $v*2;
 }
 .about__content > ul > li,
 .ruled-list > li {
@@ -527,7 +606,11 @@ a.fade {
 .underlined {
   border-bottom: 1px solid $color--black;
 }
-
+.sc {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: $font-size--small;
+}
 .button--right {
   &:after {
     content: url(/assets/images/icon--right.svg);

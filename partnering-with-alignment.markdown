@@ -3,7 +3,7 @@ title: Partnering with Alignment
 permalink: "/about/partnering/"
 position: 2
 layout: about
-banner_image: "/uploads/banner-03.jpg"
+banner_image: "/uploads/banner-11.jpg"
 ---
 
 - We seek to support management teams that share our core values of passion, creativity and transparency, and excel in delivering innovative and flexible solutions uniquely tailored to our partners’ needs.

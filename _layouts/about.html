@@ -2,29 +2,28 @@
 layout: default
 ---
 
+<nav>
+  <ul class="tabs">
+    {% assign about_pages = site.pages | where: 'layout', 'about' | sort: 'position' %}
+    {% for about_page in about_pages %}
+      <li class="tab">
+        {% if page.title == about_page.title %}
+          {% assign is_active = true %}
+        {% else %}
+          {% assign is_active = false %}
+        {% endif %}
+          <a href="{{ about_page.url }}" class="tab__link{% if is_active %} tab__link--active{% else %} faded{% endif %}">
+            {{ about_page.title }}
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
 <section class="about">
   <div class="row">
-    <ul class="about-menu col col-4 sm-col-12">
-      {% assign about_pages = site.pages | where: 'layout', 'about' | sort: 'position' %}
-      {% for about_page in about_pages %}
-        <li class="about-menu__item">
-          {% if page.title == about_page.title %}
-            {% assign is_active = true %}
-          {% else %}
-            {% assign is_active = false %}
-          {% endif %}
-            <h3 class="about-page__title{% if is_active %} faded{% endif %}">
-              {% unless is_active %}
-                <a href="{{ about_page.url }}" class="underlined fade">
-              {% endunless %}
-              {{ about_page.title }}
-              {% unless is_active %}
-                </a>
-              {% endunless %}
-            </h3>
-        </li>
-      {% endfor %}
-    </ul>
+    <div class="col col-4 sm-col-12">
+      <h2 class="about__title">{{ page.title }}</h2>
+    </div>
     <div class="col col-8 sm-col-12 rte about__content">
       {{ page.content | markdownify }}
     </div>
