@@ -3,7 +3,7 @@ title: General Assembly
 position: 0
 link: https://generalassemb.ly/
 image: "/uploads/general-assembly.png"
-meta:
+items:
 - title: Ownership
   content: Key investors include Advance Publications, IVP, Maveron and Wellington
     Capital Management

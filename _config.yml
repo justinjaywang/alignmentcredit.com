@@ -22,7 +22,7 @@ defaults:
   values:
     link: 
     image: 
-    meta:
+    items:
     - title: Ownership
       content: 
     - title: Total Commitment

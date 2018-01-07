@@ -11,7 +11,7 @@
         <div class="rte">
           {{ case_study.content | markdownify }}
         </div>
-        {% for item in case_study.meta %}
+        {% for item in case_study.items %}
           <div class="row">
             <div class="col col-3 xs-col-12">
               <h4 class="strong">{{ item.title }}</h4>
