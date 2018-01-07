@@ -4,7 +4,7 @@ timezone: America/New_York
 collections:
   case_studies:
     title: Case Studies
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
@@ -20,15 +20,26 @@ defaults:
     path: ''
     type: case_studies
   values:
-    permalink: "/portfolio/:title/"
-    layout: case_study
-    banner_image: "/uploads/banner-01.jpg"
-    investment:
-    - 
-    value-add:
-    - 
     link: 
     image: 
+    meta:
+    - title: Ownership
+      content: 
+    - title: Total Commitment
+      content: 
+    - title: Structure
+      content: 
+    - title: Use of Proceeds
+      content: |-
+        - 
+    - title: Alignment Role
+      content: Joint lender with Prudential Impact Investments
+    - title: Key Features
+      content: |-
+        - 
+    - title: Alignment Value-Add
+      content: |-
+        - 
 url: http://alignmentcredit.com
 description: Alignment Credit provides credit financing solutions for emerging growth
   & middle-market companies.
@@ -64,8 +75,8 @@ date_format: "%b %-d, %Y"
 nav:
 - title: Our Advantage
   link: "/about/debt-vs-equity/"
-- title: Case Studies
-  link: "/portfolio/"
+- title: Our Portfolio
+  link: "/portfolio/recent-transactions"
 num_recent_posts: 3
 contact:
   email: info@alignmentcredit.com

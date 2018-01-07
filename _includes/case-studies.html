@@ -1,0 +1,29 @@
+{% assign sorted_case_studies = site.case_studies | sort: 'position' %}
+<ul class="case-studies">
+  {% for case_study in sorted_case_studies  %}
+    <li class="case-study row">
+      <div class="col col-4 sm-col-12">
+        <div class="case-study__image-wrap">
+          <a href="{{ case_study.link }}" class="fade fade--small"><img src="{{ case_study.image }}" class="mbv1"></a>
+        </div>
+      </div>
+      <div class="col col-8 sm-col-12">
+        <div class="rte">
+          {{ case_study.content | markdownify }}
+        </div>
+        {% for item in case_study.meta %}
+          <div class="row">
+            <div class="col col-3 xs-col-12">
+              <h4 class="strong">{{ item.title }}</h4>
+            </div>
+            <div class="col col-9 xs-col-12">
+              <div class="rte">
+                {{ item.content | markdownify }}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

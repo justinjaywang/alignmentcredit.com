@@ -22,10 +22,13 @@ layout: default
 <section class="about">
   <div class="row">
     <div class="col col-4 sm-col-12">
-      <h2 class="about__title">{{ page.title }}</h2>
+      <h2 class="main__title">{{ page.title }}</h2>
     </div>
-    <div class="col col-8 sm-col-12 rte about__content">
+    <div class="col col-8 sm-col-12 rte">
       {{ page.content | markdownify }}
     </div>
   </div>
 </section>
+<footer class="main__footer">
+  <a href="/portfolio/recent-transactions/" class="button button--right">View our portfolio</a>
+</footer>

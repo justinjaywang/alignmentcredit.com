@@ -17,7 +17,12 @@
         {% endcapture %}{{ nav__items | normalize_whitespace | replace: '> <', '><' }}
       </nav>
       <section class="banner">
-        <h1 class="banner__title">{% if page.layout == 'case_study' %}Case Studies{% elsif page.layout == 'about' %}Our Advantage{% else %}{{ page.headline | default: page.title }}{% endif %}</h1>
+        <h1 class="banner__title">
+          {% if page.layout == 'about' %}Our Advantage
+          {% elsif page.layout == 'portfolio' %}Our Portfolio
+          {% else %}{{ page.headline | default: page.title }}
+          {% endif %}
+        </h1>
         {% if page.layout == 'index' %}
           <a href="/about/debt-vs-equity/" class="button banner__button{% if page.banner_image %} button--inverse{% endif %} button--right fade">Learn more</a>
         {% endif %}

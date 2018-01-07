@@ -15,7 +15,7 @@ When structured appropriately, credit solutions can offer multiple compelling be
 
 Middle-market companies have always relied on partnerships with credit providers for growth and liquidity solutions.  In addition, recent years have seen a dramatic growth in the [use of debt by venture companies](http://tomtunguz.com/venture-debt-spike/), ranging from early stage start-ups to well-capitalized “unicorns”:
 
-<div class="row mtv1 mbv1">
+<div class="row mtv2 mbv1">
   <div class="col col-6">
     <a href="https://www.cnbc.com/2017/05/16/levelup-mobile-app-gets-50-million-in-latest-fintech-fundraising-round.html" class="logo">
       <img src="/uploads/levelup.png" alt="LevelUp">

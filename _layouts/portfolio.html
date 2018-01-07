@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<nav>
+  <ul class="tabs">
+    {% assign portfolio_pages = site.pages | where: 'layout', 'portfolio' | sort: 'position' %}
+    {% for portfolio_page in portfolio_pages %}
+      <li class="tab">
+        {% if page.title == portfolio_page.title %}
+          {% assign is_active = true %}
+        {% else %}
+          {% assign is_active = false %}
+        {% endif %}
+          <a href="{{ portfolio_page.url }}" class="tab__link{% if is_active %} tab__link--active{% else %} faded{% endif %}">
+            {{ portfolio_page.title }}
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+<section class="portfolio">
+  {% if page.title == 'Case Studies' %}
+    {% include case-studies.html %}
+  {% elsif page.title == 'Recent Transactions' %}
+    {% include recent-transactions.html %}
+  {% endif %}
+</section>
