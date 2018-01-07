@@ -208,13 +208,14 @@ code {
     }
   }
   sup {
-    font-size: $font-size--small;
+    font-size: $font-size--smaller;
     vertical-align: baseline;
     position: relative;
     top: -0.4em;
   }
   small {
     display: block;
+    font-size: $font-size--small;
   }
   .caption {
     @extend small;
@@ -643,7 +644,7 @@ a.fade {
 .sc {
   text-transform: uppercase;
   letter-spacing: 0.02em;
-  font-size: $font-size--small;
+  font-size: $font-size--smaller;
 }
 .button--right {
   &:after {
