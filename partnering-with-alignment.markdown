@@ -6,15 +6,19 @@ layout: about
 banner_image: "/uploads/banner-11.jpg"
 ---
 
-- We seek to support management teams that share our core values of passion, creativity and transparency, and excel in delivering innovative and flexible solutions uniquely tailored to our partners’ needs.
-- Superior cost of capital relative to equity
-- Greater flexibility than traditional bank facilities or venture debt
-- Passive investment approach
-- Extensive value-add capabilities and strategic partner network across:
+Not all businesses and not credit solutions are “created equal.” Partnering with an experienced and patient credit provider who is aligned with your strategic objectives is critical to a successful long-term outcome.
+
+Since Alignment Credit was founded in 2014, we have excelled in delivering innovative credit solutions uniquely tailored to our partners’ needs. Our key areas of competitive differentiation include:
+
+- Access to non-traditional and patient sources of capital that enable bespoke structure flexibility
+- Extensive structuring expertise 
+- Proven value-add capabilities and strategic partner network across:
   - Capital markets and strategic advisory
-  - Traditional and digital tech, media and communications
+  - Traditional and digital technology, media and communications
+  - Digital marketing “transformation” 
   - Consumer and retail
   - Education and business services
   - Financial services and fintech
-  - Healthcare
-  - International expansion, including Asia
+  - International markets, including Europe and Asia
+- Passive investment approach
+- Fast and transparent decision-making process

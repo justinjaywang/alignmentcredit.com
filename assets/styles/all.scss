@@ -80,9 +80,15 @@ code {
 .rte {
   a {
     @extend .underlined;
+    @extend .fade;
+  }
+  .logo {
+    opacity: $opacity--logo;
     &:hover {
-      opacity: $opacity--faded;
+      opacity: $opacity--slightly-faded;
     }
+    border-bottom: none;
+    display: inline-block;
   }
   h1,
   h2,
@@ -150,6 +156,16 @@ code {
   }
   blockquote {
     padding-left: calc(1em - 1px);
+  }
+  ol,
+  ul {
+    ul,
+    ol {
+      margin-bottom: 0;
+    }
+    ul {
+      list-style-type: circle;
+    }
   }
   ol {
     padding-left: 1.75em;
@@ -411,7 +427,10 @@ code {
 }
 .case-study-preview__thumb,
 .case-study__thumb {
-  opacity: 0.94;
+  opacity: $opacity--logo;
+}
+.case-study-preview__thumb,
+.case-study__thumb {
   @include cover;
   padding-top: 50%;
   margin-bottom: $v;
@@ -464,7 +483,6 @@ code {
   max-width: 36rem;
   margin-bottom: $v*4;
 }
-.about__content > ul > li,
 .ruled-list > li {
   border-bottom: 1px solid $color--hr;
   padding-top: $padding--hr;
@@ -479,16 +497,6 @@ code {
 }
 .about__content {
   margin-bottom: $v*4;
-  & > ul {
-    padding-left: 0;
-    list-style-type: none;
-  }
-  ul {
-    margin-bottom: 0;
-  }
-  ul li ul {
-    margin-top: $v/2;
-  }
 }
 .swatch {
   position: relative;
@@ -610,7 +618,7 @@ a.fade:hover {
   opacity: $opacity--faded;
 }
 a.fade--small:hover {
-  opacity: 0.6;
+  opacity: $opacity--slightly-faded;
 }
 a.faded,
 a.fade {

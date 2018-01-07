@@ -56,8 +56,10 @@ $gutter-sm: 1.25rem;
 // miscellaneous
 // -------------
 
-$opacity--faded: 0.4;
-$opacity--faint: 0.08;
+$opacity--slightly-faded: 0.6;
+$opacity--faded:          0.4;
+$opacity--faint:          0.08;
+$opacity--logo:           0.93;
 
 $padding--hr: $v/2;
 $color--hr:   rgba($color--black, $opacity--faint);
