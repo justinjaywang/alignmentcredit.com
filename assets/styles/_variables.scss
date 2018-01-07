@@ -1,11 +1,18 @@
 // colors
 // ------
 
-$color--black: #111;
-$color--white: #fff;
+$color--white:  #fff;
+$color--black:  #161616;
+$color--gray:   #A2A2A2; // equivalent to rgba($color--black, $opacity--faded)
 
-$color--blue:   #1654be;
-$color--silver: #f6f8fa;
+$color--silver: #F6F8FA;
+
+$color--blue:   #2868C7;
+$color--navy:   #081F54;
+$color--red:    #F25848;
+$color--yellow: #E6992B;
+$color--green:  #01AE7E;
+$color--slate:  #A4AEB1;
 
 // typography
 // ----------
