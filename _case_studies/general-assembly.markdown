@@ -5,9 +5,10 @@ link: https://generalassemb.ly/
 image: "/uploads/general-assembly.png"
 meta:
 - title: Ownership
-  content: Key investors include Advance Publications, IVP, Maveron and Wellington Capital Management
+  content: Key investors include Advance Publications, IVP, Maveron and Wellington
+    Capital Management
 - title: Commitment
-  content: $18 million
+  content: "$18 million"
 - title: Structure
   content: Term loans
 - title: Use of Proceeds
@@ -21,8 +22,8 @@ meta:
     - Multi-tranche facility tailored to business and capital structure milestones
     - IO structure with low ongoing cash interest costs
 - title: Alignment Value-Add
-  content: |-
-    - Assisted in attracting a strategic investment from [Guardian Life Insurance Company](https://www.guardianlife.com/about-guardian)
+  content: "- Assisted in attracting a strategic investment from [Guardian Life Insurance
+    Company](https://www.guardianlife.com/about-guardian)"
 ---
 
 [General Assembly](https://generalassemb.ly/) is a pioneer in education and career transformation, specializing in today’s most in-demand skills.

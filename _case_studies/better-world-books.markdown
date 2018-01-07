@@ -7,18 +7,15 @@ meta:
 - title: Ownership
   content: Founder-controlled
 - title: Commitment
-  content: $18 million
+  content: "$18 million"
 - title: Structure
   content: Senior secured term loan
 - title: Use of Proceeds
-  content: |-
-    - Shareholder liquidity 
-    - Refinance existing bank facilities
+  content: "- Shareholder liquidity \n- Refinance existing bank facilities"
 - title: Alignment Role
   content: Joint lender with Prudential Impact Investments
 - title: Key Features
-  content: |-
-    - IO structure with low ongoing interest costs
+  content: "- IO structure with low ongoing interest costs"
 - title: Alignment Value-Add
   content: |-
     - Assisted in significantly growing direct online sales via a partnership with [OnRamp Fund](http://onrampfund.com/)
