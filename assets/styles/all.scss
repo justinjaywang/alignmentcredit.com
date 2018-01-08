@@ -432,7 +432,11 @@ code {
   }
 }
 .case-study {
-  margin-bottom: $v*3;
+}
+.case-study + .case-study {
+  margin-top: $v;
+  border-top: 1px solid $color--hr;
+  padding-top: $v*2;
 }
 .case-study__image-wrap,
 .transaction__image-wrap {
