@@ -33,15 +33,3 @@ grunt
 ```
 
 With GitHub sync enabled, push to GitHub. Then publish on Siteleaf.
-
----
-## To Do
-
-- add 404
-- add favicon
-- add `/assets/images/avatar.png`
-- style guide, including links to assets
-  - social media avatar
-  - social media banners
-  - color palette
-  - logo
