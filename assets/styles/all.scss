@@ -434,63 +434,27 @@ code {
 .case-study {
   margin-bottom: $v*3;
 }
-.case-study__image-wrap {
-  max-width: 24em;
+.case-study__image-wrap,
+.transaction__image-wrap {
+  max-width: 21em;
   margin-left: auto;
   margin-right: auto;
 }
-// .case-study-preview__thumb,
-// .case-study__thumb {
-//   opacity: $opacity--logo;
-// }
-// .case-study-preview__thumb,
-// .case-study__thumb {
-//   @include cover;
-//   padding-top: 50%;
-//   margin-bottom: $v;
-// }
-// .case-study-preview__thumb-wrap,
-// .case-study__thumb-wrap {
-//   max-width: 22.5rem;
-//   @media (max-width: $bp-xs-sm) {
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
-// }
-// .case-study-preview {
-//   margin-bottom: $v*2;
-// }
-// .case-studies {
-//   margin-bottom: $v*4;
-// }
-// .case-study {
-//   margin-bottom: $v*6;
-//   @media (max-width: $bp-sm-md) {
-//     margin-bottom: $v*4;
-//   }
-// }
-// .case-study__section {
-//   margin-bottom: $v/2;
-//   border-top: 1px solid $color--hr;
-//   padding-top: $padding--hr;
-//   &:first-of-type {
-//     border-top-color: transparent;
-//   }
-//   &:last-of-type {
-//     margin-bottom: 0;
-//   }
-// }
-// .case-study-nav {
-//   border-top: 1px solid $color--hr;
-//   padding-top: $padding--hr;
-//   margin-bottom: $v*4;
-//   @media (max-width: $bp-sm-md) {
-//     margin-bottom: $v*3;
-//   }
-// }
-// .case-study-nav__next {
-//   text-align: right;
-// }
+.case-study__image,
+.transaction__image {
+  display: block;
+  @include cover;
+  padding-top: 50%;
+  margin-bottom: $v;
+}
+.transaction {
+  margin-bottom: $v*2;
+}
+.transaction__date {
+  @extend .faded;
+  display: block;
+  margin-bottom: $v*0.5;
+}
 .page {
   margin-left: auto;
   margin-right: auto;
