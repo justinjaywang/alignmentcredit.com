@@ -13,7 +13,7 @@ $(function(){
     $body.addClass('js');
     initExternalLinks();
     initHeaderImage();
-    initCaseStudyNav();
+    // initCaseStudyNav();
   };
 
   // external links
@@ -70,21 +70,21 @@ $(function(){
   // post nav
   // --------
 
-  var prev = $('#prev'),
-    next = $('#next');
-  var initCaseStudyNav = function() {
-    $document.keydown(function(e) {
-      if (e.keyCode == 37) { // left
-        if (prev.length) {
-          window.location.href = prev.attr('href');
-        }
-      } else if (e.keyCode == 39) { // right
-        if (next.length) {
-          window.location.href = next.attr('href');
-        }
-      }
-    });
-  };
+  // var prev = $('#prev'),
+  //   next = $('#next');
+  // var initCaseStudyNav = function() {
+  //   $document.keydown(function(e) {
+  //     if (e.keyCode == 37) { // left
+  //       if (prev.length) {
+  //         window.location.href = prev.attr('href');
+  //       }
+  //     } else if (e.keyCode == 39) { // right
+  //       if (next.length) {
+  //         window.location.href = next.attr('href');
+  //       }
+  //     }
+  //   });
+  // };
 
   // initialize
   // ----------
