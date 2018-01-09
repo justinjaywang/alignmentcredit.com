@@ -7,7 +7,7 @@
 @import 'reset';
 @import 'mixins';
 @import 'variables';
-@import 'animations';
+// @import 'animations';
 
 // base
 // ----
@@ -625,34 +625,44 @@ a.fade {
   letter-spacing: 0.02em;
   font-size: $font-size--smaller;
 }
+// .button--right {
+//   &:after {
+//     content: url(/assets/images/icon--right.svg);
+//     display: inline-block;
+//     position: relative;
+//     top: 0.2em;
+//     width: 1em;
+//   }
+//   &.button--inverse:after {
+//     content: url(/assets/images/icon--right--inverse.svg);
+//   }
+//   &:hover:after {
+//     @include animation(arrowJostleRight .4s);
+//   }
+// }
+// .button--left {
+//   &:before {
+//     content: url(/assets/images/icon--left.svg);
+//     display: inline-block;
+//     position: relative;
+//     top: 0.2em;
+//     width: 1em;
+//   }
+//   &.button--inverse:before {
+//     content: url(/assets/images/icon--left--inverse.svg);
+//   }
+//   &:hover:before {
+//     @include animation(arrowJostleLeft .4s);
+//   }
+// }
 .button--right {
   &:after {
-    content: url(/assets/images/icon--right.svg);
-    display: inline-block;
-    position: relative;
-    top: 0.2em;
-    width: 1em;
-  }
-  &.button--inverse:after {
-    content: url(/assets/images/icon--right--inverse.svg);
-  }
-  &:hover:after {
-    @include animation(arrowJostleRight .4s);
+    content: ' →';
   }
 }
 .button--left {
   &:before {
-    content: url(/assets/images/icon--left.svg);
-    display: inline-block;
-    position: relative;
-    top: 0.2em;
-    width: 1em;
-  }
-  &.button--inverse:before {
-    content: url(/assets/images/icon--left--inverse.svg);
-  }
-  &:hover:before {
-    @include animation(arrowJostleLeft .4s);
+    content: '← ';
   }
 }
 .bg-black { background-color: $color--black; }
