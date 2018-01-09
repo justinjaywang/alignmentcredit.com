@@ -348,11 +348,14 @@ code {
   margin-top: $v;
 }
 .main {
+  margin-bottom: $v*4;
+}
+.main--index,
+.main--page {
   margin-top: $v*3;
   @media (max-width: $bp-sm-md) {
     margin-top: $v*2;
   }
-  margin-bottom: $v*4;
 }
 .main__title {
   @extend strong;
@@ -368,10 +371,8 @@ code {
   margin-bottom: -$v*2;
 }
 .tabs {
-  margin-top: -$v*3;
   margin-bottom: $v*3;
   @media (max-width: $bp-sm-md) {
-    margin-top: -$v*2;
     margin-bottom: $v*2;
   }
   border-bottom: 1px solid $color--hr;
