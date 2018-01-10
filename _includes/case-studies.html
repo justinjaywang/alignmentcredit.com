@@ -12,20 +12,18 @@
           <div class="rte">
             {{ case_study.content | markdownify }}
           </div>
+          {% for item in case_study.items %}
+            <div class="row">
+              <div class="col col-3 xs-col-12">
+                <h4 class="strong">{{ item.title }}</h4>
+              </div>
+              <div class="col col-9 xs-col-12 rte">
+                {{ item.content | markdownify }}
+              </div>
+            </div>
+          {% endfor %}
         </div>
       </div>
-      {% for item in case_study.items %}
-        <div class="row">
-          <div class="col col-3 xs-col-12">
-            <h4 class="strong">{{ item.title }}</h4>
-          </div>
-          <div class="col col-9 xs-col-12">
-            <div class="rte">
-              {{ item.content | markdownify }}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
     </li>
   {% endfor %}
 </ul>
