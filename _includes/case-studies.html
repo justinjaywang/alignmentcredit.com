@@ -1,29 +1,31 @@
 {% assign sorted_case_studies = site.case_studies | sort: 'position' %}
 <ul class="case-studies">
   {% for case_study in sorted_case_studies  %}
-    <li class="case-study row">
-      <div class="col col-4 sm-col-12">
-        <div class="case-study__image-wrap">
-          <a href="{{ case_study.link }}" class="fade fade--small case-study__image" style="background-image: url('{{ case_study.image }}');"></a>
+    <li class="case-study">
+      <div class="row">
+        <div class="col col-4 sm-col-12">
+          <div class="case-study__image-wrap">
+            <a href="{{ case_study.link }}" class="fade fade--small case-study__image" style="background-image: url('{{ case_study.image }}');"></a>
+          </div>
+        </div>
+        <div class="col col-8 sm-col-12">
+          <div class="rte">
+            {{ case_study.content | markdownify }}
+          </div>
         </div>
       </div>
-      <div class="col col-8 sm-col-12">
-        <div class="rte">
-          {{ case_study.content | markdownify }}
-        </div>
-        {% for item in case_study.items %}
-          <div class="row">
-            <div class="col col-3 xs-col-12">
-              <h4 class="strong">{{ item.title }}</h4>
-            </div>
-            <div class="col col-9 xs-col-12">
-              <div class="rte">
-                {{ item.content | markdownify }}
-              </div>
+      {% for item in case_study.items %}
+        <div class="row">
+          <div class="col col-3 xs-col-12">
+            <h4 class="strong">{{ item.title }}</h4>
+          </div>
+          <div class="col col-9 xs-col-12">
+            <div class="rte">
+              {{ item.content | markdownify }}
             </div>
           </div>
-        {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
     </li>
   {% endfor %}
 </ul>
