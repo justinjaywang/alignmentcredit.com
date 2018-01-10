@@ -469,10 +469,11 @@ code {
   margin-bottom: $v;
 }
 .transaction__image {
-  margin-bottom: $v*0.5;
+  margin-bottom: $v;
 }
 .transaction {
-  font-size: $font-size--smaller;
+  // font-size: $font-size--smaller;
+  margin-bottom: $v*3;
 }
 .transaction__inner {
   border: 1px solid $color--hr;
