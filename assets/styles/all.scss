@@ -324,6 +324,18 @@ code {
     padding-bottom: $v*2;
   }
 }
+.footer__col-2 {
+  text-align: center;
+  @media (max-width: $bp-sm-md) {
+    text-align: left;
+  }
+}
+.footer__col-3 {
+  text-align: right;
+  @media (max-width: $bp-sm-md) {
+    text-align: left;
+  }
+}
 .banner {
   text-align: center;
 }
