@@ -475,7 +475,7 @@ code {
   border: 1px solid $color--blue;
   border-radius: 5px;
   height: 100%;
-  padding: 1em 1em 1.5em;
+  padding: 1em;
   @include transition-transform(150ms);
   &:hover {
     @include transform(translateY(-5px));
