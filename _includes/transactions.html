@@ -1,21 +1,10 @@
-{% assign sorted_transactions = site.transactions | sort: 'date' | reverse %}
+{% assign sorted_transactions = site.transactions | sort: 'position' %}
 <ul class="transactions row">
   {% for transaction in sorted_transactions  %}
-    
-    <li class="transaction col col-4 sm-col-6 xs-col-12">
-      <time class="transaction__date">{{ transaction.date | date: "%Y" }}</time>
-      <div class="transaction__image-wrap">
-        <a href="{{ transaction.link }}" class="fade fade--small transaction__image" style="background-image: url('{{ transaction.image }}');"></a>
-      </div>
-      <strong><a href="{{ transaction.link }}" class="fade">{{ transaction.title }}</a></strong>
-      <ul>
-        <li>
-          {{ transaction.amount }}
-        </li>
-        <li>
-          {{ transaction.type }}
-        </li>
-      </ul>
+    <li class="transaction col col-3 sm-col-4 xs-col-6">
+      <a href="{{ transaction.link }}" class="block fade fade--small">
+        <img src="{{ transaction.image }}">
+      </a>
     </li>
   {% endfor %}
 </ul>

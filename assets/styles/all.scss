@@ -464,61 +464,55 @@ code {
   display: block;
   @include cover;
   padding-top: 50%;
-}
-.case-study__image {
-  margin-bottom: $v;
-}
-.transaction__image {
   margin-bottom: $v;
 }
 .transaction {
-  // font-size: $font-size--smaller;
-  margin-bottom: $v*3;
+  margin-bottom: $v*2;
 }
-.transaction__inner {
-  border: 1px solid $color--hr;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  padding: 0.75em;
-  display: block;
-  height: 100%;
-  .transaction:nth-child(5n+1) & {
-    border-left-color: $color--hr;
-  }
-  .transaction:nth-child(-n+5) & {
-    border-top-color: $color--hr;
-  }
-  @media (max-width: $bp-sm-md) {
-    .transaction:nth-child(4n+1) & {
-      border-left-color: $color--hr;
-    }
-    .transaction:nth-child(-n+4) & {
-      border-top-color: $color--hr;
-    }
-  }
-  @media (max-width: $bp-xs-sm) {
-    .transaction:nth-child(3n+1) & {
-      border-left-color: $color--hr;
-    }
-    .transaction:nth-child(-n+3) & {
-      border-top-color: $color--hr;
-    }
-  }
-}
-.transactions__col {
-  width: 1/5*100%;
-  @media (max-width: $bp-sm-md) {
-    width: 1/4*100%;
-  }
-  @media (max-width: $bp-xs-sm) {
-    width: 1/3*100%;
-  }
-}
-.transaction__date {
-  @extend .faded;
-  display: block;
-  margin-bottom: $v*0.25;
-}
+// .transaction__inner {
+//   border: 1px solid $color--hr;
+//   border-left-color: transparent;
+//   border-top-color: transparent;
+//   padding: 0.75em;
+//   display: block;
+//   height: 100%;
+//   .transaction:nth-child(5n+1) & {
+//     border-left-color: $color--hr;
+//   }
+//   .transaction:nth-child(-n+5) & {
+//     border-top-color: $color--hr;
+//   }
+//   @media (max-width: $bp-sm-md) {
+//     .transaction:nth-child(4n+1) & {
+//       border-left-color: $color--hr;
+//     }
+//     .transaction:nth-child(-n+4) & {
+//       border-top-color: $color--hr;
+//     }
+//   }
+//   @media (max-width: $bp-xs-sm) {
+//     .transaction:nth-child(3n+1) & {
+//       border-left-color: $color--hr;
+//     }
+//     .transaction:nth-child(-n+3) & {
+//       border-top-color: $color--hr;
+//     }
+//   }
+// }
+// .transactions__col {
+//   width: 1/5*100%;
+//   @media (max-width: $bp-sm-md) {
+//     width: 1/4*100%;
+//   }
+//   @media (max-width: $bp-xs-sm) {
+//     width: 1/3*100%;
+//   }
+// }
+// .transaction__date {
+//   @extend .faded;
+//   display: block;
+//   margin-bottom: $v*0.25;
+// }
 .page {
   margin-left: auto;
   margin-right: auto;
