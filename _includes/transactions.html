@@ -1,7 +1,7 @@
 {% assign sorted_transactions = site.transactions | sort: 'date' | reverse %}
 <ul class="transactions row">
   {% for transaction in sorted_transactions  %}
-    <li class="transaction col col-4 sm-col-6 xs-col-12">
+    <li class="transaction col col-3 sm-col-4 xs-col-6">
       <a href="{{ transaction.link }}" class="transaction__inner">
         <time class="transaction__date">{{ transaction.date | date: "%Y" }}</time>
         <div class="transaction__image-wrap">

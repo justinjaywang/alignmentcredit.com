@@ -448,7 +448,7 @@ code {
 }
 .case-study + .case-study {
   margin-top: $v;
-  border-top: 1px solid $color--hr;
+  border-top: 1px solid $color--blue;
   padding-top: $v*2;
 }
 .case-study__image-wrap,
@@ -472,7 +472,7 @@ code {
 }
 .transaction__inner {
   display: block;
-  border: 1px solid rgba($color--black, 0.12);
+  border: 1px solid $color--blue;
   border-radius: 5px;
   height: 100%;
   padding: 1em 1em 1.5em;
@@ -485,10 +485,11 @@ code {
   }
 }
 .transaction__title {
+  color: $color--navy;
   @extend .fade;
 }
 .transaction__date {
-  @extend .faded;
+  color: $color--blue;
   display: block;
   margin-bottom: $v*0.25;
 }
