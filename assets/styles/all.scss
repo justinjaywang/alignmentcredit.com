@@ -512,12 +512,12 @@ code {
 // }
 .transaction__inner {
   display: block;
-  // border: 1px solid $color--hr;
+  border: 1px solid rgba($color--black, 0.12);
+  // background-color: $color--silver;
   border-radius: 5px;
-  background-color: $color--silver;
   height: 100%;
   padding: 1em 1em 1.5em;
-  @include transition-transform(250ms);
+  @include transition-transform(150ms);
   &:hover {
     @include transform(translateY(-5px));
     .transaction__title {
