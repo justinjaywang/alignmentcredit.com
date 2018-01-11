@@ -453,19 +453,41 @@ code {
 }
 .case-study__image-wrap,
 .transaction__image-wrap {
-  max-width: 21em;
+  max-width: 18em;
   margin-left: auto;
   margin-right: auto;
 }
 .case-study__image,
 .transaction__image {
   display: block;
-  @include cover;
   padding-top: 50%;
   margin-bottom: $v;
 }
+.case-study__image {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left top;
+  @media (max-width: $bp-sm-md) {
+    background-position: center;
+  }
+}
+.case-study__image--better-world-books {
+  background-size: 90%;
+}
+.case-study__image--general-assembly {
+  background-size: 80%;
+}
 .transaction__image {
   margin-top: $v*0.5;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.transaction__image--general-assembly {
+  background-size: 90%;
+}
+.transaction__image--tough-mudder {
+  background-size: 90%;
 }
 .transaction {
   margin-bottom: $v;
@@ -487,11 +509,17 @@ code {
 .transaction__title {
   color: $color--navy;
   @extend .fade;
+  @extend strong;
+  margin-bottom: 2px;
 }
 .transaction__date {
   color: $color--blue;
   display: block;
   margin-bottom: $v*0.25;
+}
+.transaction__date,
+.transaction__meta {
+  font-size: $font-size--small;
 }
 .page {
   margin-left: auto;

@@ -5,10 +5,10 @@
       <a href="{{ transaction.link }}" class="transaction__inner">
         <time class="transaction__date">{{ transaction.date | date: "%Y" }}</time>
         <div class="transaction__image-wrap">
-          <div class="fade fade--small transaction__image" style="background-image: url('{{ transaction.image }}');"></div>
+          <div class="fade fade--small transaction__image transaction__image--{{ transaction.title | slugify: 'pretty' }}" style="background-image: url('{{ transaction.image }}');"></div>
         </div>
-        <strong class="transaction__title">{{ transaction.title }}</strong>
-        <ul>
+        <h2 class="transaction__title">{{ transaction.title }}</h2>
+        <ul class="transaction__meta">
           <li>
             {{ transaction.amount }}
           </li>

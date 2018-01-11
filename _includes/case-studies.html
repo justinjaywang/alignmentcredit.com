@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col col-3 sm-col-12">
           <div class="case-study__image-wrap">
-            <a href="{{ case_study.link }}" class="fade fade--small case-study__image" style="background-image: url('{{ case_study.image }}');"></a>
+            <a href="{{ case_study.link }}" class="fade fade--small case-study__image case-study__image--{{ case_study.title | slugify: 'pretty' }}" style="background-image: url('{{ case_study.image }}');"></a>
           </div>
         </div>
         <div class="col col-9 sm-col-12 rte">

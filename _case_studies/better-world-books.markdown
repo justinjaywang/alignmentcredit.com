@@ -2,7 +2,7 @@
 title: Better World Books
 position: 1
 link: https://www.betterworldbooks.com/
-image: "/uploads/better-world-books.png"
+image: "/uploads/better-world-books-cropped.png"
 items:
 - title: Ownership
   content: Founder-controlled
