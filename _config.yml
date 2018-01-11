@@ -46,6 +46,8 @@ defaults:
   values:
     link: 
     image: 
+    amount: "$10 million"
+    type: Senior Secured Term Loan
 url: http://alignmentcredit.com
 description: Alignment Credit provides credit financing solutions for emerging growth
   & middle-market companies.
