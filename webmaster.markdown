@@ -6,6 +6,7 @@ Field name:
 ---
 
 Hello world!
-![banner-08.jpg](/uploads/banner-08.jpg)
 
-boo
+Transactions page: Dimensions of images (companies' logos) = 2:1 (coded to fit)
+
+Case Studies page-- Logos may need to be cropped
