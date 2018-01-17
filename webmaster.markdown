@@ -14,3 +14,5 @@ Hello world!
 * Case studies orders can be rearranged (drag and drop), but for posts & Transactions cannot (just change the date).
 
 * Recent posts only shows 3 at the moment--> to change go to settings--> num. recent posts.
+
+* Contact info edits--> Settings--> contact
