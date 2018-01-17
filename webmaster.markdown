@@ -11,4 +11,4 @@ Transactions page: Dimensions of images (companies' logos) = 2:1 (coded to fit)
 
 Case Studies page-- Logos may need to be cropped
 
-Transactions/ case studies orders can be rearranged, but for posts cannot.
+Case studies orders can be rearranged (drag and drop), but for posts & Transactions cannot.
