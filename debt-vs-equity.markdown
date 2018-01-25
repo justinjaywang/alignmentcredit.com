@@ -41,15 +41,15 @@ Middle-market companies have always relied on partnerships with credit providers
 </div>
 </div>
 
-For many businesses, credit solutions have become critical to achieving their key strategic and financial objectives, including:
+For many businesses, credit solutions have become critical part of achieving their key strategic and financial objectives, including:
 
-* Accelerating growth trajectory
+* Maintaining and accelerating growth momentum
 
 * Extending runway to the “next milestone,” such as a liquidity event or reaching cash flow breakeven
 
-* Managing working capital
+* Improving working capital management
 
-* Providing a “safety net” without dilution
+* Providing a “safety net” of additional liquidity without dilution
 
 * Enabling acquisitions
 
