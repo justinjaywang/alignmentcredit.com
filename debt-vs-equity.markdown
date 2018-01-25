@@ -35,7 +35,7 @@ Middle-market companies have always relied on partnerships with credit providers
 </a>
 </div>
 <div class="col col-6">
-<a href="https://www.reuters.com/article/tesla-motors-debt/update-1-tesla-enters-into-500-mln-credit-facility-idUSL3N0YY58020150612" class="logo">
+<a href="[https://www.reuters.com/article/tesla-motors-debt/update-1-tesla-enters-into-500-mln-credit-facility-idUSL3N0YY58020150612](https://www.reuters.com/article/tesla-motors-debt/update-1-tesla-enters-into-500-mln-credit-facility-idUSL3N0YY58020150612)" class="logo">
 <img src="/uploads/tesla.png" alt="Tesla">
 </a>
 </div>
