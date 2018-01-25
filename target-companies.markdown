@@ -10,7 +10,7 @@ Alignment Credit seeks to support management teams with long-term strategic orie
 
 Some of the key characteristics of our target partners include:
 
-* Industry sector agnostic, including:
+* Industry sector agnostic, including
 
   * U.S.-based and international companies
 
@@ -32,9 +32,9 @@ Some of the key characteristics of our target partners include:
 
   * Later-stage venture companies with proven business models
 
-* Transaction size: $5 to $30 million
+* Typical transaction size: $5 to $30 million
 
-* Flexible approach to uses of proceeds
+* Broad variety of capital needs, including 
 
   * Growth initiatives
 
@@ -44,6 +44,12 @@ Some of the key characteristics of our target partners include:
 
   * Mergers and acquisitions
 
+  * Management buyouts and sponsor acquisition finance
+
   * Recapitalizations and shareholder liquidity
 
+  * Restructurings
+
   * Special situations
+
+* Business committed to delivering a positive impact on their sectors and society
