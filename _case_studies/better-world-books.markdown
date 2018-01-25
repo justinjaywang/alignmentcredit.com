@@ -1,5 +1,6 @@
 ---
 title: Better World Books
+published: false
 position: 1
 link: https://www.betterworldbooks.com/
 image: "/uploads/better-world-books-cropped.png"
