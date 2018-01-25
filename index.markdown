@@ -1,8 +1,8 @@
 ---
 title: Home
 position: 0
-headline: Credit financing solutions for emerging growth & middle-market companies
-layout: index
+headline: Strategic credit solutions for emerging growth & middle-market companies
 banner_image: "/uploads/banner-01.jpg"
+layout: index
 ---
 
