@@ -22,12 +22,6 @@ Since Alignment Credit was founded in 2014, we have excelled in delivering innov
 
   * Cash and/or Pay-in-Kind interest
 
-  * U.S.-based and international companies
-
-  * Previously under-banked companies and industries
-
-  * New asset classes
-
 * Proven value-add capabilities and strategic partner network across:
 
   * Capital markets and strategic advisory
