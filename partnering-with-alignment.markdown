@@ -12,7 +12,7 @@ Since Alignment Credit was founded in 2014, we have excelled in delivering innov
 
 * Non-traditional and long-term oriented sources of capital that enable bespoke structure flexibility
 
-* Extensive structuring expertise and track record of providing effective solutions for a broad variety of situations, including 
+* Extensive structuring expertise and track record of providing effective solutions for a broad variety of situations, including
 
   * First and second-lien secured loans (cash flow, asset-backed, or enterprise value-based)
 
@@ -21,6 +21,12 @@ Since Alignment Credit was founded in 2014, we have excelled in delivering innov
   * Unfunded and delayed-draw commitments
 
   * Cash and/or Pay-in-Kind interest
+
+  * U.S.-based and international companies
+
+  * Previously under-banked companies and industries
+
+  * New asset classes
 
 * Proven value-add capabilities and strategic partner network across:
 
@@ -36,8 +42,8 @@ Since Alignment Credit was founded in 2014, we have excelled in delivering innov
 
   * Financial services and fintech
 
-* International markets, including Europe and Asia 
+* International markets, including Europe and Asia
 
-* Transparent decision making process 
+* Transparent decision making process
 
-* Ability to meet tight time frames and manage highly complex situations 
+* Ability to meet tight time frames and manage highly complex situations
