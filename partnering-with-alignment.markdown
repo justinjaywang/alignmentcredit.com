@@ -10,9 +10,17 @@ Not all businesses and credit solutions are “created equal.” Partnering with
 
 Since Alignment Credit was founded in 2014, we have excelled in delivering innovative and strategic credit solutions uniquely tailored to our portfolio companies' needs. Our key differentiating factors include:
 
-* Access to non-traditional and patient sources of capital that enable bespoke structure flexibility
+* Non-traditional and long-term oriented sources of capital that enable bespoke structure flexibility
 
-* Extensive structuring expertise
+* Extensive structuring expertise and track record of providing effective solutions for a broad variety of situations, including 
+
+  * First and second-lien secured loans (cash flow, asset-backed, or enterprise value-based)
+
+  * Short- and long-dated maturities
+
+  * Unfunded and delayed-draw commitments
+
+  * Cash and/or Pay-in-Kind interest
 
 * Proven value-add capabilities and strategic partner network across:
 
@@ -28,8 +36,8 @@ Since Alignment Credit was founded in 2014, we have excelled in delivering innov
 
   * Financial services and fintech
 
-  * International markets, including Europe and Asia
+* International markets, including Europe and Asia 
 
-* Passive investment approach
+* Transparent decision making process 
 
-* Fast and transparent decision-making process
+* Ability to meet tight time frames and manage highly complex situations 
