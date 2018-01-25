@@ -26,4 +26,4 @@ items:
     Company](https://www.guardianlife.com/about-guardian)"
 ---
 
-[General Assembly](https://generalassemb.ly/) is a pioneer in education and career transformation, specializing in today’s most in-demand skills.
+A pioneer in for-profit professional education and career transformation, specializing in today’s most in-demand skills.
