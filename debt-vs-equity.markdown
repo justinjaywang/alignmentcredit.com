@@ -16,7 +16,7 @@ When structured appropriately, credit solutions can offer multiple significant a
 
 * Retain existing governance structure and control over the business
 
-Middle-market companies have always relied on partnerships with credit providers for their growth and liquidity solutions.  In addition, recent years have seen a dramatic growth in [use of debt among the VC-backed companies](http://tomtunguz.com/venture-debt-spike/), ranging from early stage start-ups to well-capitalized “unicorns”:
+Middle-market companies have always relied on partnerships with credit providers for their growth and liquidity solutions.  In addition, recent years have seen a dramatic growth in the [use of debt among VC-backed companies](http://tomtunguz.com/venture-debt-spike/), ranging from early stage start-ups to well-capitalized “unicorns”:
 
 <div class="row mtv2 mbv1">
 <div class="col col-6">
