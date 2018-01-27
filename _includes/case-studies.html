@@ -1,4 +1,4 @@
-{% assign sorted_case_studies = site.case_studies | sort: 'position' %}
+{% assign sorted_case_studies = site.case_studies | where_exp: 'item', 'item.published != false' | sort: 'position' %}
 <ul class="case-studies">
   {% for case_study in sorted_case_studies  %}
     <li class="case-study">

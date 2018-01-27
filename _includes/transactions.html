@@ -1,4 +1,4 @@
-{% assign sorted_transactions = site.transactions | sort: 'date' | reverse %}
+{% assign sorted_transactions = site.transactions | where_exp: 'item', 'item.published != false' | sort: 'date' | reverse %}
 <ul class="transactions row">
   {% for transaction in sorted_transactions  %}
     <li class="transaction col col-3 sm-col-4 xs-col-6">
