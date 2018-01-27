@@ -14,7 +14,7 @@
     {% endcomment %}
     <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} — {{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="/assets/styles/all.css" />
+    <link rel="stylesheet" href="/assets/styles/all.css?{{ site.time | date: '%s%N' }}" />
     <link rel="icon" href="/assets/images/favicon.ico" />
     {% if site.google_analytics %}
       <script type="text/javascript">
@@ -33,6 +33,6 @@
       {{ content }}
     </main>
     {% include footer.html %}
-    <script src="/assets/scripts/all.js"></script>
+    <script src="/assets/scripts/all.js?{{ site.time | date: '%s%N' }}"></script>
   </body>
 </html>
