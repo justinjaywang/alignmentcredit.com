@@ -22,7 +22,7 @@ Some of the key characteristics of our target partners include:
 
   * Founder or family owned
 
-  * Sponsored or controlled by private equity and /or venture capital investors
+  * Sponsored or controlled by private equity and / or venture capital investors
 
 * Financial characteristics
 
@@ -34,7 +34,7 @@ Some of the key characteristics of our target partners include:
 
 * Typical transaction size: $5 to $30 million
 
-* Broad variety of capital needs, including 
+* Broad variety of capital needs, including
 
   * Growth initiatives
 
