@@ -36,7 +36,7 @@ Since Alignment Credit was founded in 2014, we have excelled in delivering innov
 
   * Financial services and fintech
 
-* International markets, including Europe and Asia
+  * International markets, including Europe and Asia
 
 * Transparent decision making process
 
