@@ -15,14 +15,14 @@ items:
     - Growth capital
     - Refinancing of existing bank facilities
 - title: Alignment Role
-  content: Joint lender with [Prudential Financial](https://www.prudential.com/)
+  content: Joint lender with Prudential Financial
 - title: Key Features
   content: |-
     - Multi-tranche term loan facilities tailored to business and capital structure milestones
     - Interest-only structure with no mandatory amortization and low ongoing cash interest costs
 - title: Alignment Value-Add
   content: "- Assisted in establishing a strategic partnership with, and attracting
-    a strategic investment from [Guardian Life Insurance Company of America](https://www.guardianlife.com/about-guardian)"
+    a strategic investment from Guardian Life Insurance Company of America"
 ---
 
 A pioneer in for-profit professional education and career transformation, specializing in today’s most in-demand skills.
