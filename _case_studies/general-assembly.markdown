@@ -1,7 +1,6 @@
 ---
 title: General Assembly
 position: 0
-link: https://generalassemb.ly/
 image: "/uploads/general-assembly-cropped.png"
 items:
 - title: Ownership
