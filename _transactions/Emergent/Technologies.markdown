@@ -1,7 +1,6 @@
 ---
 title: Emergent Technologies
 date: 2018-10-29 13:01:00 -04:00
-published: false
 image: "/uploads/Emergent%20Payments%20%E2%80%93%20Color.eps"
 amount: Up to $15 million
 type: Credit Facilities
