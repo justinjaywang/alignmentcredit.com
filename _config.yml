@@ -5,6 +5,9 @@ collections:
   case_studies:
     title: Case Studies
     output: false
+  contact-us:
+    title: Contact Us
+    output: true
   posts:
     title: Posts
     output: true
